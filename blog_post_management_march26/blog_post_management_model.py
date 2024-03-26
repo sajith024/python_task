@@ -62,6 +62,7 @@ class Blog:
                 break
         return index
 
+    # generative method for posts
     def list_post(self):
         for post in self._posts:
             yield post
